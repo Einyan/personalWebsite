@@ -1,3 +1,9 @@
-h1 {
+h1,
+#title {
     text-align: center;
+    font-size: 5rem;
+}
+
+#filler {
+    height: 100px;
 }
