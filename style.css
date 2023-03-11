@@ -2,8 +2,19 @@ h1,
 #title {
     text-align: center;
     font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Bubbles', cursive;
+    color: #c2157e
 }
 
 #filler {
     height: 100px;
+}
+
+#content {
+    height: 800px;
+    border-color: #c2157e;
+    border-style: dashed;
+    margin: 40px;
+    border-radius: 45px;
 }
