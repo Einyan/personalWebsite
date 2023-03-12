@@ -1,4 +1,4 @@
-h1,
+/* h1, */
 #title {
     text-align: center;
     font-size: 5rem;
@@ -15,6 +15,23 @@ h1,
     height: 800px;
     border-color: #c2157e;
     border-style: dashed;
-    margin: 40px;
+    /* margin: 40px; */
     border-radius: 45px;
+}
+
+img {
+    width: 50%;
+}
+
+header {
+    background-color: thistle;
+    margin: 0;
+}
+
+.about-me {
+    background-color: mistyrose;
+}
+
+.project {
+    background-color: antiquewhite;
 }
