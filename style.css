@@ -1,37 +1,31 @@
-/* h1, */
-#title {
+body {
     text-align: center;
-    font-size: 5rem;
+    font-size: 10px;
     font-family: 'Roboto', sans-serif;
     font-family: 'Rubik Bubbles', cursive;
-    color: #c2157e
 }
 
-#filler {
-    height: 100px;
-}
-
-#content {
-    height: 800px;
-    border-color: #c2157e;
-    border-style: dashed;
-    /* margin: 40px; */
-    border-radius: 45px;
-}
+/* .container {
+    width: 570px;
+    margin: 0 auto;
+} */
 
 img {
-    width: 50%;
+    width: 30%;
 }
 
 header {
+    color: rebeccapurple;
     background-color: thistle;
-    margin: 0;
 }
 
 .about-me {
     background-color: mistyrose;
+    color: hotpink;
+    font-family: inherit;
 }
 
 .project {
-    background-color: antiquewhite;
+    color: lightyellow;
+    background-color: rosybrown;
 }
