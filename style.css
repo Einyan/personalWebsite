@@ -1,22 +1,19 @@
 body {
     text-align: center;
-    font-size: 10px;
+    font-size: 21px;
     font-family: 'Roboto', sans-serif;
     font-family: 'Rubik Bubbles', cursive;
 }
-
-/* .container {
-    width: 570px;
-    margin: 0 auto;
-} */
 
 img {
     width: 30%;
 }
 
 header {
+    font-size: 81px;
     color: rebeccapurple;
     background-color: thistle;
+
 }
 
 .about-me {
@@ -28,4 +25,14 @@ header {
 .project {
     color: lightyellow;
     background-color: rosybrown;
+}
+
+header,
+section {
+    padding: 100px 0;
+}
+
+.btn {
+    font-size: xx-large;
+    text-decoration: underline;
 }
