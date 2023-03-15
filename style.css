@@ -5,15 +5,35 @@ body {
     font-family: 'Rubik Bubbles', cursive;
 }
 
-img {
-    width: 30%;
+.container {
+    width: 570px;
+    margin: 0 auto;
 }
 
-header {
-    font-size: 81px;
+img {
+    width: 60%;
+}
+
+/* header {
     color: rebeccapurple;
     background-color: thistle;
+} */
 
+.inverse {
+    color: lightyellow;
+    background-color: rosybrown;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 50px;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
 
 .about-me {
@@ -22,17 +42,13 @@ header {
     font-family: inherit;
 }
 
-.project {
-    color: lightyellow;
-    background-color: rosybrown;
-}
-
 header,
 section {
     padding: 100px 0;
 }
 
 .btn {
+    color: rebeccapurple;
     font-size: xx-large;
     text-decoration: underline;
 }
