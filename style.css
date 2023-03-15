@@ -52,3 +52,12 @@ section {
     font-size: xx-large;
     text-decoration: underline;
 }
+
+.heart {}
+
+.heart-img {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 10%;
+}
