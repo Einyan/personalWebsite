@@ -53,11 +53,22 @@ section {
     text-decoration: underline;
 }
 
-.heart {}
+/* .heart {} */
 
-.heart-img {
+#heart-icon {
     position: fixed;
     right: 10px;
     bottom: 10px;
     width: 10%;
+}
+
+.popup {
+    /* display: none; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: hotpink;
+    padding: 20px;
+    border: 1px solid red;
+    box-shadow: 0px 0px 10px 0px orange;
 }
