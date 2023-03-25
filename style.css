@@ -3,6 +3,7 @@ body {
     font-size: 21px;
     font-family: 'Roboto', sans-serif;
     font-family: 'Rubik Bubbles', cursive;
+    word-spacing: 10px;
 }
 
 .container {
@@ -12,6 +13,7 @@ body {
 
 img {
     width: 60%;
+    border-radius: 50%;
 }
 
 /* header {
@@ -55,11 +57,20 @@ section {
 
 /* .heart {} */
 
-#heart-icon {
+#heart-box {
+    background-color: rosybrown;
     position: fixed;
     right: 10px;
     bottom: 10px;
     width: 10%;
+}
+
+#heart-icon {
+    background-color: blue;
+}
+
+#heart-icon:hover {
+    background-color: green;
 }
 
 .popup {
@@ -71,4 +82,15 @@ section {
     padding: 20px;
     border: 1px solid red;
     box-shadow: 0px 0px 10px 0px orange;
+}
+
+button {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    border: none;
+}
+
+button:active {
+    background-color: hotpink;
 }
